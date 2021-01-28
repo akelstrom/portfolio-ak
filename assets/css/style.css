@@ -2,6 +2,10 @@ body, h6, h5, h4, h3 {
     font-weight:100;
 }
 
+.material-icons {
+    color:#ffee58;
+}
+
 nav .name {
     text-align: left;
     font-size: 2.5rem;
@@ -12,10 +16,30 @@ nav .name {
     color: black;
 }
 
+.sidenav>a {
+    color:black;
+    background-color: #ffee58;
+    font-size:larger;
+    opacity: 60%;
+}
 
+.sidenav li a {
+    font-weight:100;
+}
+.sidenav li a:hover {
+    background-color:#ffee58;
+}
  ul li a {
     color:black;
     font-weight:100; 
+    text-transform:uppercase;
+}
+
+ul li a:focus {
+    color:black;
+    font-weight:100;
+    background-color: white;
+    text-decoration: line-through solid black ; 
 }
 
 ul li a:hover {
@@ -41,6 +65,7 @@ ul li a:hover {
 
 .card {
     width: 450px;
+    max-height: 650px;
 }
 
 .card li {
@@ -49,7 +74,31 @@ ul li a:hover {
     display:inline-flex;
 }
 
-.card 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: black;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    background-color:#ffee58 ;
+    opacity: 60%;
+    color:black;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):focus {
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+    text-decoration:line-through 1px solid black
+}
 
 .card .card-action {
     margin-top: 0px;
@@ -94,10 +143,32 @@ ul li a:hover {
     flex: 1;
   }
 
+  .container2 {
+    display: flex;
+  }
+  
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex: 1;
+  }
+
+  .hotdog {
+      margin: 0 55px 0 55px;
+  }
+
   @media screen and (max-width: 766px) {
     nav .name {
        font-size: 20px;
     }
+
   }
 
   @media screen and (max-width: 430px) {
