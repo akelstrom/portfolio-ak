@@ -1,0 +1,111 @@
+body, h6, h5, h4, h3 {
+    font-weight:100;
+}
+
+nav .name {
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color:#ffee58;
+    opacity: 60%;
+    color: black;
+}
+
+
+ ul li a {
+    color:black;
+    font-weight:100; 
+}
+
+ul li a:hover {
+    background-color: #ffee58; 
+    opacity: 60%;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.contact li {
+    display: inline;
+    padding: 20px;
+    font-weight: 100;
+}
+
+.subheader {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+.card {
+    width: 450px;
+}
+
+.card li {
+    list-style-type: square;
+    margin-left: 10px;
+    display:inline-flex;
+}
+
+.card 
+
+.card .card-action {
+    margin-top: 0px;
+}
+
+.card .card-content {
+    padding: 30px;
+}
+
+.card img { 
+    max-height: 250px;
+    width: 100%;
+}
+
+.card img:hover {
+    opacity: 50%;
+}
+
+.card .card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight:100;
+}
+
+.card h6, .card span {
+    padding-left: 10px;
+}
+
+/* flex */
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  @media screen and (max-width: 766px) {
+    nav .name {
+       font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .card {
+        width: 350px;
+    }
+
+    nav .name {
+        font-size: 16px;
+    }
+  }
