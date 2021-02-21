@@ -3,7 +3,7 @@ body, h6, h5, h4, h3 {
 }
 
 .material-icons {
-    color:#ffee58;
+    color:black;
 }
 
 nav .name {
@@ -65,7 +65,7 @@ ul li a:hover {
 
 .card {
     width: 450px;
-    max-height: 650px;
+    max-height: 750px;
 }
 
 .card li {
@@ -105,7 +105,7 @@ ul li a:hover {
 }
 
 .card .card-content {
-    padding: 30px;
+    padding: 25px;
 }
 
 .card img { 
@@ -123,8 +123,12 @@ ul li a:hover {
     font-weight:100;
 }
 
-.card h6, .card span {
-    padding-left: 10px;
+.card span {
+   padding: 25px;
+}
+
+.title-type {
+    padding-left: 25px;
 }
 
 /* flex */
