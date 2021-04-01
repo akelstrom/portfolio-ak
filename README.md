@@ -1,7 +1,12 @@
 # Portfolio
 
 ## Description
-Personal Web Development portfolio site. My portfolio features six dynamic web development projects that range from Front-End, Back-End, and Full-Stack web applications. Two projects were completed with a team, while the rest were completed individually. 
+Software Development Portfolio Website. My portfolio features six dynamic Web Development projects including Front-End, Back-End, and Full-Stack web applications. Two projects were completed with a team, while the rest were completed individually. 
+
+## Usage
+Visit my portfolio [here](https://akelstrom.github.io/portfolio-ak/)
+
+![Screenshot of portfolio](assets/images/screencapture-file-Users-Alexandra-Desktop-projects-portfolio-ak-index-html-2021-04-01-14_07_28.png)
 
 ## Built With
   * HTML
@@ -9,5 +14,8 @@ Personal Web Development portfolio site. My portfolio features six dynamic web d
   * Responsive Web Design
   * Materialize
 
-## Deployed:
-https://akelstrom.github.io/portfolio-ak/
+## Credits
+Big thanks to the Upenn LPS Coding Bootcamp instructional team for all their support!
+
+## Questions
+If you have any questions, feel free to contact me by email at [akelstrom@gmail.com](mailto:akelstrom@gmail.com).
