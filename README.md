@@ -13,6 +13,7 @@ Visit my portfolio [here](https://akelstrom.github.io/portfolio-ak/)
   * CSS
   * Responsive Web Design
   * Materialize
+  * Feather Icons
 
 ## Credits
 Big thanks to the Upenn LPS Coding Bootcamp instructional team for all their support!
