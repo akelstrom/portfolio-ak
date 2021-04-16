@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description
-Software Development Portfolio Website. My portfolio features six dynamic Web Development projects including Front-End, Back-End, and Full-Stack web applications. Two projects were completed with a team, while the rest were completed individually. 
+Software Development Portfolio Website. My portfolio features six dynamic Web Development projects that includes Front-End, Back-End, and Full-Stack web applications. Two projects were completed with a team, while the rest were completed individually. 
 
 ## Usage
 Visit my portfolio [here](https://akelstrom.github.io/portfolio-ak/)
